@@ -9,7 +9,7 @@ os.system('pip install auto-py-to-exe')
 
 def plus ():
     while True:
-        os.startfile("V.py")
+        os.startfile("b.py")
         window = Tk()
         window.title('your hacking !!!')
         window.minsize(900,800)
@@ -20,7 +20,7 @@ def plus ():
 
 
 while True:
-    os.startfile("V.py")
+    os.startfile("b.py")
     os.system('auto-py-to-exe')
     window = Tk()
     window.title('your hacking !!!')
