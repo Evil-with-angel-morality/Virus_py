@@ -14,7 +14,9 @@ This is a Python file for learning and do not run this file on your system at al
 
 6_It fills the graphics card and causes it to hang and crash
 
-7_And...
+7_Turns off the device so that it no longer turns on!
+
+8_And...
 
 
 # How do I get viruses to my target and execute it?
