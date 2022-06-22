@@ -37,3 +37,7 @@ The next way
 Go to the folder code (start virus .py) and delete on line 24
 Delete the folder (b.py)
 Convert the folder (start virus .py) to a file (S.exe). (This will reduce the virus power)
+
+
+
+There are other ways you can edit a virus file with a little thought.
